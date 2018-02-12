@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Implementation-Title: server-zipkin
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: demoklis
+Specification-Vendor: Pivotal Software, Inc.
+Specification-Title: server-zipkin
+Implementation-Vendor-Id: com.demoklis
+Build-Jdk: 1.8.0_151
+Specification-Version: 0.0.1-SNAPSHOT
+Implementation-URL: http://projects.spring.io/spring-boot/server-zipki
+ n/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
