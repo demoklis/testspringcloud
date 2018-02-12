@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: config-client
+  rabbitmq:
+    host: localhost
+    port: 5672
+  cloud:
+    bus:
+      trace:
+        enable: true
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    leaseRenewalIntervalInSeconds: 10
+    leaseExpirationDurationInSeconds: 30
+server:
+  port: 8773
+
+management:
+  security:
+    enabled: false
