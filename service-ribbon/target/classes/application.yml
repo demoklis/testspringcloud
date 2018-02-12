@@ -1,0 +1,15 @@
+eureka:
+  instance:
+    preferIpAddress: true
+    instanceId: ${spring.cloud.client.ipAddress}:${server.port}
+  client:
+    serverUrl:
+      defaultZone: http://localhost:8761/eureka
+
+server: 
+  port: 8764
+spring:
+  application:
+    name: service-ribbon
+#  zipkin:
+#    base-url: http://localhost:8773

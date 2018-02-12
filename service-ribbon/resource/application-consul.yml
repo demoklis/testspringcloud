@@ -1,0 +1,20 @@
+spring:
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        healthCheckPath: /miya
+        healthCheckInterval: 15s
+        instance-id: service-ribbon
+  application:
+    name: service-ribbon
+server:
+  port: 8764
+endpoints:
+  health:
+    sensitive : false
+management:
+  security:
+    enabled: false
+    
